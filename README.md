@@ -6,6 +6,6 @@ A game with paddles and ball, players lose if they miss hitting the ball. The ga
 
 Files:
 
-1)hv_sync.v: generates vga signals for drawing ball, paddle, and changing it shape.
-2)main.v: core logic to bounce the ball if it hits the paddle, the paddle is moved with switches on the board, and end the game if the ball does not touch the paddle.
-3)Master.xdc: the master xdc file contains the blocks that will be initialized like VGA port and buttons on the FPGA board. This file is provided by digilent website.
+* hv_sync.v: generates vga signals for drawing ball, paddle, and changing it shape.
+* main.v: core logic to bounce the ball if it hits the paddle, the paddle is moved with switches on the board, and end the game if the ball does not touch the paddle.
+* Master.xdc: the master xdc file contains the blocks that will be initialized like VGA port and buttons on the FPGA board. This file is provided by digilent website.
